@@ -11,7 +11,7 @@ p{
 .container{
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 30px;
+    padding:0 auto;
 }
 
 /* ===== Styling Start====== */
@@ -21,7 +21,7 @@ logo nav header style css
 ================================ */
 .span{
     text-transform: uppercase;
-    color: tomato;
+    color: rgb(255, 99, 71);
     font-size:50px ;
 }
 .logo h1{
@@ -67,7 +67,7 @@ margin: 50px;
 }
 
 /* ==============================
-top section Style CSS
+Top section Style CSS
 ================================ */
 
 .top-div{
@@ -132,12 +132,128 @@ text-transform: capitalize;
  border: none;
  font-size: 16px;
  font-weight: 600;
+ cursor: pointer;
+box-shadow: 0 5px 0 rgba(248, 112, 88, 0.925);
+position: relative;
 }
+.btn:hover{
+top:5px;
+color: black;
+box-shadow: 0 5px 0 rgba(248, 112, 88, 0.5);
 
+}
 .btn i{
     color: white;
-    padding-left:5px; 
+    padding-left:2px; 
     text-align: center;
     font-size: 13px;
     font-weight: 600;
-   }
+}
+.btn i:hover{
+    color:black;
+   
+
+    
+}
+/* ==============================
+    Top section Style CSS End 
+================================ */
+
+
+/*======================================
+ Logos partner section Style CSS Start
+========================================*/
+
+.logo-partner{
+
+    width:100%;
+    height: 100%;
+    padding: 50px 0px 50px 0px ;
+    
+}
+.partner{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px 20px 0px;
+}
+.logo-partner hr {
+width: 55%;
+border:1px solid;
+border-color: hsla(0, 2%, 34%, 0.164);
+}
+.partner img{
+    margin-left:50px;
+    width:80px;
+    object-fit: cover;    
+}
+
+/*======================================
+ Logos partner section Style CSS End
+========================================*/
+
+/*======================================
+  products section CSS Style start 
+========================================*/
+
+.products-header{
+    text-align: center;
+    margin-bottom:50px;
+    font-size: 40px;
+    font-family: poppins;
+    font-weight: 800;
+    color: rgb(37, 39, 41);
+}
+
+.products-header hr{
+    width:5%;
+    border:1px solid;
+    border-color: rgb(255, 99, 71);
+    
+}
+
+.all-products{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    justify-content: center;
+}
+
+/* single-product */
+
+.single-product h2{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    margin: 0px;
+    
+}
+.price{
+
+    font-size: 15px;
+    color: black;
+    margin: 0px;
+}
+.price span{
+    color:orange;
+    font-size: 20px;
+    margin: 0px;
+    font-weight: 600;
+}
+
+.single-product ul> li{
+    list-style: none;
+    font-size: 16px;
+    color: orange;
+    margin: 0px;
+    text-align: left;
+
+
+}
+.single-product p{
+    color: black;
+    font-size: 16px;
+    width: 70%;
+}
