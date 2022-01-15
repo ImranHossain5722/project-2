@@ -324,6 +324,24 @@ width: 100%;
 /*======================================
   Our featured  button section CSS Style 
 ========================================*/
+
+.features img{
+   width:320px;
+   height:280px;
+   border-radius: 8px;
+}
+
+.fe-products{
+
+    padding-left: 20px;
+    background-color:white;
+    margin: 15px 15px;
+    padding-top: 18px;
+    border-radius: 10px;
+    box-shadow: 10px -0px 50px 0px rgba(128, 128, 128, 0.336);
+    object-fit: cover;
+
+}
 .more{
 padding: 10px 50px 10px 50px;
 border: 1px solid white;
