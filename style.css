@@ -137,7 +137,7 @@ box-shadow: 0 5px 0 rgba(248, 112, 88, 0.925);
 position: relative;
 }
 .btn:hover{
-top:5px;
+top:1px;
 color: black;
 box-shadow: 0 5px 0 rgba(248, 112, 88, 0.5);
 
@@ -155,6 +155,7 @@ box-shadow: 0 5px 0 rgba(248, 112, 88, 0.5);
 
     
 }
+
 /* ==============================
     Top section Style CSS End 
 ================================ */
@@ -194,6 +195,7 @@ border-color: hsla(0, 2%, 34%, 0.164);
  Logos partner section Style CSS End
 ========================================*/
 
+
 /*======================================
   products section CSS Style start 
 ========================================*/
@@ -207,53 +209,216 @@ border-color: hsla(0, 2%, 34%, 0.164);
     color: rgb(37, 39, 41);
 }
 
+.products-header span{
+    
+    color:tomato;
+}
+
+
 .products-header hr{
     width:5%;
     border:1px solid;
     border-color: rgb(255, 99, 71);
     
+    
 }
 
-.all-products{
+.all-products,.features {
     display: grid;
     grid-template-columns: repeat(3,1fr);
     align-items: center;
     justify-content: center;
 }
 
+
+
 /* single-product */
 
+.single-product{
+
+    padding-left: 20px;
+    background-color:white;
+    margin: 15px 15px;
+    padding-top: 18px;
+    border-radius: 10px;
+    box-shadow: 10px 20px 50px 0px rgba(128, 128, 128, 0.336);
+
+}
+
+.single-product img{
+    margin-left: 15px;
+   
+   }
 .single-product h2{
     font-size: 20px;
     color: rgb(0, 0, 0);
     font-weight: 500;
-    margin: 0px;
+    margin-left:15px;
     
 }
-.price{
-
-    font-size: 15px;
-    color: black;
-    margin: 0px;
-}
 .price span{
-    color:orange;
+    
+    color:black;
     font-size: 20px;
-    margin: 0px;
+    margin-right:5px;
     font-weight: 600;
 }
 
-.single-product ul> li{
+.rating{
+
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content:center;
+    align-items:center;
+}
+
+.single-product ul{
+ margin-left: -20px;
+}
+
+.single-product ul> li {
     list-style: none;
     font-size: 16px;
     color: orange;
     margin: 0px;
-    text-align: left;
 
 
 }
+.single-product ul> li >i {
+  margin:0px;
+  list-style-type: none;
+
+}
+
 .single-product p{
     color: black;
     font-size: 16px;
     width: 70%;
+    margin-left: 15px;
 }
+.see-more{
+display: flex;
+justify-content: flex-end;
+align-items:center;
+
+}
+
+.button{
+  margin: 50px 20px 50px 0px;
+  
+}
+
+/*======================================
+  Our featured  section CSS Style start 
+========================================*/
+
+.more-products{
+margin:20px 0px 20px 0px ;
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 100%;
+}
+
+
+/*======================================
+  Our featured  button section CSS Style 
+========================================*/
+.more{
+padding: 10px 50px 10px 50px;
+border: 1px solid white;
+background-image: linear-gradient( tomato, rgba(243, 160, 36, 0.719) );
+border-radius: 25px;
+color: white;
+font-size: 15px;
+font-weight: 600;
+
+}
+
+
+/*contact us*/
+
+.flixebal-div{
+    display: flex;
+    margin: 50px;
+    
+    }
+.contat-img, .div-form {
+    width: 50%;
+    padding: 50px;
+    
+    }
+.contat-img img {
+        width: 80%;
+    }
+.div-contact h1{
+    padding-top: 50px;   
+    text-align: center;
+    font-size: 50px;
+    font-weight:900;
+    font-family: Tahoma, sans-serif;
+    }
+    .div-contact span{
+    
+        color:tomato;
+    }
+    
+    .contat-img img {
+    width: 100%;
+    box-shadow: 20px 10px 50px -20px hsla(0, 0%, 43%, 0.438);
+    border-radius:50px;
+    
+    
+    }
+    .div-form input{
+        padding: 20px;
+        width: 100%;
+        border:01px solid rgb(224, 218, 218)
+    }
+    .div-form textarea{
+        padding: 20px;
+        width: 100%;
+        border:01px solid rgb(219, 216, 216)
+    }
+    
+    #sub-btn{
+    
+    background-image: linear-gradient(#F59560,tomato);
+    font-size: 20px;
+    font-weight: bold;
+    color:white;
+    }
+    
+    .footer-div{
+    background-color:rgb(19, 19, 53);
+    color: white;
+    text-align: center;
+    font-family: cursive;
+    padding:5px;
+    }
+    .footer-div span {
+     color:tomato;
+     font-family:cursive
+    }
+    
+    #copy{
+    
+        color: white;
+        font-size: 12px;
+    }
+
+    .icons-div{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+    }
+    .icons-div i{
+
+        color: tomato;
+        background-color:white;
+        padding: 10px;
+        margin:20px 0px 20px 0px;
+        border-radius: 20px;
+    }
